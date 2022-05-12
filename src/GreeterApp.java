@@ -17,8 +17,10 @@ public class GreeterApp {
 		System.out.println(greeter.greet(name));
 		
 		LoudGreeter greeterLoud = new LoudGreeter(greeting);
-		for(int i =0; i > loud; i++) {
+		
+		for(int i = 0; i <= loud; i++) {
 			greeterLoud.addVolume();
+			
 		}
 		System.out.println(greeterLoud.greet(name));
 		

@@ -16,7 +16,8 @@ class LoudGreeterTest {
 		LoudGreeter greeter = new LoudGreeter("Yo"); //Arrange, Act	
 		greeter.addVolume();
 		greeter.addVolume();
-		assertEquals("Yo , JOHN!!!!", greeter.greet("JOHN"));
+		greeter.addVolume();
+		assertEquals("Yo , JOHN!!!!!", greeter.greet("JOHN"));
 	}
 
 
