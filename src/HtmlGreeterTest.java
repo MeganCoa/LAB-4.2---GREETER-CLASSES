@@ -8,7 +8,7 @@ class HtmlGreeterTest {
 	void testHtmlGreeter1() {
 		HtmlGreeter greeter = new HtmlGreeter(); //Arrange, Act
 		greeter.setGreeting("Hello");
-		assertEquals("<h1> Yo , Bobby! </h1>", greeter.greet("Bobby"));
+		assertEquals("<h1> Hello , Bobby! </h1>", greeter.greet("Bobby"));
 	}
 	
 	@Test
